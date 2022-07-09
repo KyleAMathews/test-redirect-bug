@@ -5,5 +5,6 @@ exports.createPages = ({ graphql, actions }) => {
   createRedirect({ fromPath: '/old-url2', toPath: '/', isPermanent: true })
   createRedirect({ fromPath: '/old-url3', toPath: '/', isPermanent: true })
   createRedirect({ fromPath: '/old-url4', toPath: '/', isPermanent: true })
+  createRedirect({ fromPath: '/old-url5', toPath: '/', isPermanent: true })
   // Create pages here
 }
